@@ -1,0 +1,4 @@
+nikola|1000|2|d|rezervisana|Spider Man|250|20.01.2022
+|nikola|1000|2|b|rezervisana|spider man|250|20.1.2022|
+nikola|1000|2|b|prodata|spider man|250|20.2.2022|lazar
+nikola|1000|3|c|rezervisana|spider man|250|23.4.2022.|
