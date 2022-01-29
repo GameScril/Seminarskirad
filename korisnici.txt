@@ -1,0 +1,5 @@
+nikola|nikola1|nikola|peulic|kupac
+lazar|lazar2|lazar|lazarovic|kupac
+marko|marko1|marko|markovic|menadzer
+david|david2|david|davidovic|menadzer
+rajko|rajko2|rajko|rajkovic|prodavac

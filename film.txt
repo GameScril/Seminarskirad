@@ -1,0 +1,6 @@
+Naziv filma    |Zanr             |Vreme   |Reziser        |Glavne uloge   |Godina|Kratak opis                     |Zemlja porekla
+---------------+--------------------------+---------------+---------------+------+--------------------------------+--------------
+The Eternals   |Action           |2:37    |Chloe Zhao     |Gemma Chan     |2021  |Vecnici,rasa besmrtnih bica     |USA
+Iron Man       |Action           |2:08    |Jon Favreau    |Robert Downey  |2008  |A wealthy American businessman  |USA
+Spider Man     |Action           |2:01    |Sam Raimi      |Tobey Maguire  |2002  |Bitten by radioactive spider    |USA
+Doctor strange |Action           |1:55    |Scott Derric   |Benedict       |2016  |Famous neurosureon              |USA

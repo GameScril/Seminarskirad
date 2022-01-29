@@ -1,0 +1,16 @@
+nikola|1000|2|b|rezervisana|spider man|250|20.1.2022|
+nikola|1000|2|b|prodata|spider man|250|20.2.2022|lazar
+nikola|1000|3|c|rezervisana|spider man|250|23.4.2022.|
+nikola|1000|3|c|rezervisana|spider man|250|23.2.2022.|
+nikola|1113|2|a|rezervisana|the eternals|500|29.01.2022|
+nikola|1113|3|a|rezervisana|the eternals|500|22.02.2022|
+nikola|1112|3|b|rezervisana|doctor strange|29.01.2022|450|
+nikola|1114|4|c|rezervisana|doctor strange|29.01.2022|450|
+nikola|1112|2|a|rezervisana|doctor strange|22.01.2022|450|
+nikola|1113|1|a|rezervisana|doctor strange|22.01.2022|450|
+nikola|1113|1|b|rezervisana|the eternals|22.01.2022|450|
+nikola|1113|3|a|prodata|doctor strange|450|22.2.2022|lazar
+nikola|1113|2|a|prodata|the eternals|450|22.1.2022|lazar
+nikola|1114|2|c|rezervisana|doctor strange|22.01.2022|450|
+nikola|1112|3|a|prodato|iron man|22.1.2022|450|
+nikola|1112|2|a|prodato|iron man|22.01.2022|450|lazar|

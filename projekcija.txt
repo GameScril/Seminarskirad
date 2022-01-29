@@ -1,0 +1,4 @@
+1111  |a1  |14:20|16:21|21.01.2022|cetvrtak,petak                |spider man     |250
+1112  |a2  |12:00|14:08|24.01.2022|utorak,sreda                  |iron man       |340
+1113  |a3  |12:00|14:01|25.01.2022|petak,subota                  |the eternals   |500
+1114  |a4  |12:00|13:55|29.1.2022 |ponedeljak,utorak             |doctor strange |450

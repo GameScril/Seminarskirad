@@ -1,0 +1,5 @@
+nikola|1114|4|c|rezervisana|doctor strange|29.01.2022|450|
+nikola|1113|1|b|rezervisana|the eternals|22.01.2022|450|
+nikola|1113|2|a|prodata|the eternals|450|22.1.2022|lazar
+nikola|1114|2|c|rezervisana|doctor strange|22.01.2022|450|
+nikola|1112|2|a|prodato|iron man|22.01.2022|450|lazar|
