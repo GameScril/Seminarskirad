@@ -1,7 +1,6 @@
-
 def unos():
 	print("===============")
-	print("Unos etineteta: ")
+	print("Unos projekcije ili filma: ")
 	print("===============")
 	print("1) Unos nove projekcije: ")
 	print("2) Unos novog filma: ")
@@ -35,7 +34,7 @@ def unos():
 		while len(film) != 15:
 			film += " "
 		with open ("projekcija.txt","a") as b:
-			b.write("\n" + oznaka + "|" + sala.lower() + "|" + vre_po + "|" + vre_kra + "|" + datum + "|" + dani.lower() + "|" + film.lower() + "|"+cena)
+			b.write( '\'n'+ oznaka + "|" + sala.lower() + "|" + vre_po + "|" + vre_kra + "|" + datum + "|" + dani.lower() + "|" + film.lower() + "|"+cena)
 		print(povratak())
 	elif komanda == '2':
 		print("Unos novog filma:")
@@ -64,7 +63,7 @@ def unos():
 		with open ("film.txt","a") as b:
 			b.write("\n" + ime + "|" + zanr + "|" + trajanje + "|" + reziser + "|" + glavna + "|" + godina + "|" + kratak + "|" + drzava)
 		with open ("filmovi_pretraga.txt","a") as r:
-			r.write("\n" + ime.lower() + "|" + zanr.lower() + "|" + trajanje + "|" + reziser.lower() + "|" + glavna.lower() + "|" + godina + "|" + kratak.lower() + "|" + drzava.lower())
+			r.write("\n" + ime.lower() + "|" + zanr.lower() + "|" + trajanje + "|" + reziser.lower() + "|" + glavna.lower() + "|" + godina + "|" + kratak.lower() + "|" + drzava.lower()+ "\n")
 		print(povratak())
 def izvestavanje():
 	print("============")
@@ -73,7 +72,7 @@ def izvestavanje():
 	print("1) Lista prodatih karata za odabran datum")
 	print("2) Ukupan broj i ukupna cena prodatih karata za izabran datum")
 	print("3) Ukupna cena prodatih karata za zadati film u svim projekcijama")
-	print("4) Ukupna cena prodatih karata za datok prodavca")
+	print("4) Ukupna cena prodatih karata za datog prodavca")
 	print("5) Ukupna zarada")
 	print("Za povratak uneti x")
 	komanda = input("Uneti zeljenu opciju: ")
@@ -109,7 +108,7 @@ def izvestavanje():
 				cena = int(proveraKolone[6])
 				if datumm == datum:
 					brojac += 1
-					ukupna_cena+=cena
+					ukupna_cena += cena
 			if brojac == 0:
 				print("Nema ni jedna prodana karta za uneti datum")
 				print(povratak())
@@ -361,7 +360,7 @@ def pretraga_projekcija():
 def pregled_filmova():
 	print("")
 	print("==========================")
-	print("Pregled dostupnih filmova")
+	print("Pregled dostupnih filmova") 
 	print("==========================")
 	file = open("film.txt","r")
 	print(file.read())
@@ -496,7 +495,7 @@ def menadzer():
 	print("1) Pregled dostupnih filmova")
 	print("2) Pretraga filmova")
 	print("3) Pretraga projekcija")
-	print("4) Unos etentiteta")
+	print("4) Unos projekcije i filma")
 	print("5) Registracija novih prodavaca")
 	print("6) Izvestavanje")
 	print("7) Odjava")

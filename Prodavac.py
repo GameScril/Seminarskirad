@@ -86,7 +86,7 @@ def direktna_prodaja():
 					print("")
 					print("Pogresna opcija: ")
 					print("Uneti [da] ili [ne]")
-					x = input("Dali ste sigurni da za ovu projekciju zelite rezervisati kartu: ")
+					x = input("Da li ste sigurni da za ovu projekciju zelite rezervisati kartu: ")
 				if "da" == x.lower():
 					red = input("Izaberite red(1,2,3,4): ")
 					while red not in ("1","2","3","4"):
@@ -164,7 +164,7 @@ def ponistavanje_rezervacije():
 	print("Ponistavanje rezervacije\n")
 	print("Unesi ime korisnika za koga hocete da ponistite rezervaciju: ")
 	ime = input(">> ")
-	with open("rezervacije.txt","r") as r:
+	with open("Rezervacije.txt","r") as r:
 		with open("ponistene_karte.txt","w") as w:
 			for red in r.readlines():
 				provera = red.strip().split("|")
@@ -176,7 +176,7 @@ def pregled_karata():
 	print("Uneti korisnicko ime za pregled karata: ")
 	k_ime = input('=>')
 	x = k_ime.lower()
-	with open ("rezervacije.txt","r") as f:
+	with open ("Rezervacije.txt","r") as f:
 		for i in f.readlines():
 			linije = i.strip().split("|")
 			ime = linije[0]
@@ -232,7 +232,7 @@ def rezervacija():
 						print("Pogresan unos")
 						red = input("Izaberite red(1,2,3,4): ")
 					kolona = input("Izaberite kolonu(a,b,c,d): ")
-					with open ("rezervacije.txt","r") as k:
+					with open ("Rezervacije.txt","r") as k:
 						for f in k.readlines():
 							redd = f.strip().split("|")
 							oznakaa = redd[1].rstrip()
@@ -243,7 +243,7 @@ def rezervacija():
 									print("Mesto je zauzeto pokusaj ponovo")
 									print(prodavac()) 
 								else:
-										with open ("rezervacije.txt","a") as m:
+										with open ("Rezervacije.txt","a") as m:
 											with open ("projekcija.txt","r") as t:	
 												for i in t.readlines():
 													linija = i.strip().split("|")

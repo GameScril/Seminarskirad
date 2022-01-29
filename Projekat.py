@@ -54,7 +54,7 @@ def Korisnicko_ime(ime_fajla):
 	return "--------------------------------------------------------------------------------------"
 ############Funkcija za lozinku
 def Lozinka():
-	lozinka = input("Uneti lozinku: ")
+	lozinka = input("Uneti lozinku(najmanje 6 znakova i 1 broj): ")
 	broj = 0
 	brojevi = "0123456789"
 	for i in lozinka:

@@ -5,7 +5,7 @@ def ponistavanje_rezervacije():
 	print("--------------------------")
 	print("Unesi ime korisnika za koga hocete da ponistite rezervaciju: ")
 	ime = input(">> ")
-	with open("rezervacije.txt","r") as r:
+	with open("Rezervacije.txt","r") as r:
 		with open("ponistene_karte.txt","w") as w:
 			for red in r.readlines():
 				provera = red.strip().split("|")
@@ -72,8 +72,8 @@ def rezervacija():
 					while red not in ("1","2","3","4"):
 						print("Pogresan unos")
 						red = input("Izaberite red(1,2,3,4): ")
-					kolona = input("Izaberite kolonu(a,b,c,d): ")
-					with open ("rezervacije.txt","r") as k:
+						kolona = input("Izaberite kolonu(a,b,c,d): ")
+					with open ("Rezervacije.txt","r") as k:
 						for f in k.readlines():
 							redd = f.strip().split("|")
 							oznakaa = redd[1].rstrip()
@@ -84,12 +84,12 @@ def rezervacija():
 									print("Mesto je zauzeto pokusaj ponovo")
 									print(kupac()) 
 								else:
-										with open ("rezervacije.txt","a") as m:
-											with open ("projekcija.txt","r") as t:	
-												for i in t.readlines():
-													linija = i.strip().split("|")
-													cena = linija[7].rstrip()
-													film = linija[6].rstrip()  
+									with open ("Rezervacije.txt","a") as m:
+										with open ("projekcija.txt","r") as t:	
+											for i in t.readlines():
+												linija = i.strip().split("|")
+												cena = linija[7].rstrip()
+												film = linija[6].rstrip()  
 							
 											k_ime = input("Uneti vase korisnicko ime: ")
 											datum = input("Uneti danasnji datum u vidu (dd.mm.gggg): ")
